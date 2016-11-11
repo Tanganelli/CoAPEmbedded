@@ -1,0 +1,13 @@
+{
+  "name": "CoAPEmbedded",
+  "keywords": "coap",
+  "description": "ESP8266 library for CoAP",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Tanganelli/CoAPEmbedded"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "espressif8266"
+}
