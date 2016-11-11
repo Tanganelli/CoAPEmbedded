@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeListsPrivate.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPClient.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPOption.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPOption.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPPacket.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPPacket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPServer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CoAPServer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Resource.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Resource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Resources.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Resources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Serializer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Serializer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Transaction.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Transaction.h" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/SPI" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Wire" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/variants/generic" />
+          <root url="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed" />
+          <root url="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include" />
+          <root url="file://$MODULE_DIR$/src" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/SPI" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/Wire" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/variants/generic" />
+          <root url="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include" />
+          <root url="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed" />
+          <root url="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include" />
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/src/Resource.cpp" />
+          <root url="file://$MODULE_DIR$/src/CoAPOption.cpp" />
+          <root url="file://$MODULE_DIR$/src/CoAPServer.cpp" />
+          <root url="file://$MODULE_DIR$/src/CoAPClient.cpp" />
+          <root url="file://$MODULE_DIR$/src/Resource.h" />
+          <root url="file://$MODULE_DIR$/src/CoAPOption.h" />
+          <root url="file://$MODULE_DIR$/src/CoAPServer.h" />
+          <root url="file://$MODULE_DIR$/src/CoAPPacket.cpp" />
+          <root url="file://$MODULE_DIR$/src/Serializer.h" />
+          <root url="file://$MODULE_DIR$/src/Serializer.cpp" />
+          <root url="file://$MODULE_DIR$/src/Resources.h" />
+          <root url="file://$MODULE_DIR$/src/Resources.cpp" />
+          <root url="file://$MODULE_DIR$/src/CoAPClient.h" />
+          <root url="file://$MODULE_DIR$/src/CoAPPacket.h" />
+          <root url="file://$MODULE_DIR$/src/Transaction.cpp" />
+          <root url="file://$MODULE_DIR$/src/main.cpp" />
+          <root url="file://$MODULE_DIR$/src/Transaction.h" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>
