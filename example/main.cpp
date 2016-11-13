@@ -1,20 +1,8 @@
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
-#include <ESP8266WiFiAP.h>
-#include <ESP8266WiFiGeneric.h>
-#include <ESP8266WiFiMulti.h>
-#include <ESP8266WiFiScan.h>
-#include <ESP8266WiFiSTA.h>
-#include <ESP8266WiFiType.h>
-#include <WiFiClient.h>
-#include <WiFiClientSecure.h>
-#include <WiFiServer.h>
 #include <WiFiUdp.h>
 
 #include <CoAPServer.h>
-#include <Resource.h>
-#include <CoAPPacket.h>
-
 
 WiFiUDP Udp;
 coap::CoAPServer server(Udp);
@@ -52,10 +40,4 @@ void loop()
     server.loop();
 }
 
-int main(){
-    setup();
-    while(true){
-        //std::cout << "Loop" << std::endl;
-        loop();
-    }
-}
+

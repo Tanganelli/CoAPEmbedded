@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/CoAPPacket.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CoAPServer.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CoAPServer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/example/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Resource.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Resource.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Resources.cpp" isTestSource="false" />
@@ -110,7 +110,7 @@
           <root url="file://$MODULE_DIR$/src/CoAPClient.h" />
           <root url="file://$MODULE_DIR$/src/CoAPPacket.h" />
           <root url="file://$MODULE_DIR$/src/Transaction.cpp" />
-          <root url="file://$MODULE_DIR$/src/main.cpp" />
+          <root url="file://$MODULE_DIR$/example/main.cpp" />
           <root url="file://$MODULE_DIR$/src/Transaction.h" />
         </excluded>
       </library>
