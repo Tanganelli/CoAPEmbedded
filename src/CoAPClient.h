@@ -6,9 +6,31 @@
 #define COAPESP8266_COAPCLIENT_H
 
 
-class CoAPClient {
+#include <Udp.h>
+#include "CoAPPacket.h"
+#include "Transaction.h"
+#include "Serializer.h"
 
-};
+namespace coap{
+    class CoAPClient {
+    private:
+        UDP *_udp;
+        Serializer _serializer;
+        Transaction _sent;
+        uint16_t port;
+        uint8_t index;
+        uint16_t mid;
+
+        void checkRetransmission();
+
+        void send(CoAPPacket* packet);
+
+        int32_t received(CoAPPacket *p, uint8_t* buffer, int packetlen);
+    public:
+        CoAPClient();
+        CoAPPacket sendSynchronousRequest(CoAPPacket *request);
+    };
+}
 
 
 #endif //COAPESP8266_COAPCLIENT_H
