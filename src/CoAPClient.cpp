@@ -12,7 +12,7 @@ coap::CoAPClient::CoAPClient(): port(0) {
     this->_udp->begin(port);
 }
 
-CoAPPacket coap::CoAPClient::sendSynchronousRequest(CoAPPacket *request){
+coap::CoAPPacket coap::CoAPClient::sendSynchronousRequest(CoAPPacket *request){
 
     if(request->getType() == CoAP_UNSET)
         request->setType(CoAP_CON);
@@ -49,7 +49,7 @@ CoAPPacket coap::CoAPClient::sendSynchronousRequest(CoAPPacket *request){
             // NOTHING
         } else if(packet.isEmpty()){
             if(packet.getType() == CoAP_RST)
-                return NULL;
+                return CoAPPacket();
         }
         packetlen = _udp->parsePacket();
     }
@@ -74,7 +74,7 @@ void coap::CoAPClient::send(coap::CoAPPacket *packet) {
     uint8_t buffer[BUF_MAX_SIZE];
 #ifdef DEBUG
     Serial.println("Edited");
-    Serial.print(request->print());
+    Serial.print(packet->print());
 #endif
     uint32_t packetSize = _serializer.serialize(packet, buffer);
 #ifdef DEBUG
